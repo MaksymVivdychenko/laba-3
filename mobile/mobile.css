@@ -154,13 +154,19 @@ li{
     .container
     {
         display: grid;
-        grid-template-rows: repeat(auto, 5);
+        grid-template-rows: repeat(auto, 6);
         grid-template-columns: 1fr 1fr;
         column-gap: 4%;
     }
     .block2
     {
-        display: none;
+        grid-area: 5/1/5/3;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav > ul > li{
+        font-size: 15px;
     }
     .block1
     {
@@ -198,7 +204,7 @@ li{
     }
     .block7
     {
-        grid-area: 5/1/5/3;
+        grid-area: 6/1/6/3;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -221,7 +227,3 @@ li{
         font-size: 30px;
     }
 }
-/*  
-    Змінити розмір шрифта слогана
-    можливо зробити колонки, щоб вони просто йшли одна за одною, бо виглядає трішки калічно
-*/
