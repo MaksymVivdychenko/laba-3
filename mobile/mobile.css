@@ -19,6 +19,9 @@
 {
     background-color: rgb(245, 210, 54);
 }
+a{
+    color: black;
+}
 @media screen and (min-width: 769px)
 {
 .container
@@ -114,9 +117,6 @@ body
 .block2
 {
     align-items: center;
-}
-a{
-    color: black;
 }
 h2{
     font-size: 2em;
